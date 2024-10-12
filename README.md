@@ -1,53 +1,66 @@
 # Aroma Brand Solution App Development Tasks
 
-This repository showcases the app development tasks I completed for Aroma Brand Solution. The project focuses on implementing core functionalities that enhance user experience, improve app navigation, and provide seamless interactions. Below is a detailed overview of the features developed:
+This repository contains the app development tasks completed for Aroma Brand Solution, focused on creating a smooth and user-friendly experience. Below are the detailed tasks implemented for the project:
 
-## Features Implemented:
+## Task List:
 
-### 1. Onboarding Screens
-- **Description**: The app opens with onboarding screens designed to introduce users to key features. Each screen includes images, explanatory text, a progress indicator, and smooth transitions between steps.
-- **Key Elements**: A 'Skip' button allows users to bypass the onboarding process, and each screen is structured using `RelativeLayout` for a clean and responsive design.
+### 1. Login Screen Design
+- **Description**: Designed a login screen with input fields for username and password.
+- **Additional Features**:
+  - Added "Forgot Password" and "Sign Up" links.
+  - Implemented form validation and a loading spinner for login submission.
 
-### 2. Bottom Navigation Bar
-- **Description**: A bottom navigation bar was added for easy access to core sections of the app. Users can switch between tabs without losing the state of each screen.
-- **Key Elements**: Icons and labels are displayed for intuitive navigation, ensuring an efficient user experience.
+### 2. Onboarding Screens
+- **Description**: Created onboarding screens with images and text that explain the app’s features.
+- **Additional Features**:
+  - Added a "Skip" button and a progress indicator for each step.
+  - Implemented smooth transitions between the screens.
 
-### 3. Profile Screen
-- **Description**: Created a user profile screen where users can view and edit their personal information. Editable fields are included for name, email, and other user details.
-- **Key Elements**: Validation checks ensure correct data input, and the layout is user-friendly.
+### 3. Bottom Navigation Bar
+- **Description**: Designed a bottom navigation bar with icons and labels for 3-5 tabs.
+- **Additional Features**:
+  - Added functionality to switch between different screens or fragments.
+  - Ensured that the navigation bar adapts to various screen sizes.
 
-### 4. Push Notifications
-- **Description**: Integrated push notifications to keep users informed about important updates. Notifications are triggered for events such as promotions, reminders, or app activity.
-- **Key Elements**: Notifications are delivered in real-time using Firebase.
+### 4. Profile Screen with Editable Fields
+- **Description**: Built a profile screen that displays user information like name, email, and profile picture.
+- **Additional Features**:
+  - Included an edit button that allows users to modify their details.
+  - Implemented validation and a save function for changes.
 
-### 5. In-App Search Functionality
-- **Description**: Implemented a search bar within the app to allow users to find relevant content quickly. Search results are displayed dynamically as the user types.
-- **Key Elements**: Search is optimized for fast response and includes filters for specific categories.
+### 5. Push Notifications
+- **Description**: Set up push notifications for the app.
+- **Additional Features**:
+  - Implemented functionality to display a notification when an event occurs (e.g., a new message or reminder).
+  - Added custom sounds and notification actions.
 
-### 6. Swipe-to-Delete with Undo Option
-- **Description**: Enabled swipe-to-delete functionality for items like messages or tasks. Users can easily remove items from the list with a swipe gesture, and an undo option is available for quick recovery.
-- **Key Elements**: Smooth animations accompany the delete action, ensuring a visually appealing user experience.
+### 6. In-App Search Functionality
+- **Description**: Created a search bar that allows users to search for items within the app (e.g., products, contacts, or articles).
+- **Additional Features**:
+  - Implemented real-time search suggestions as the user types.
+  - Ensured search results are updated dynamically.
 
-### 7. Pull-to-Refresh
-- **Description**: Added pull-to-refresh functionality to lists and feeds. When users pull down on a screen, the content reloads, accompanied by a loading animation.
-- **Key Elements**: Implemented with `RelativeLayout` for a smooth and responsive interaction.
+### 7. Swipe-to-Delete Functionality
+- **Description**: Implemented swipe-to-delete functionality for a list of items (e.g., messages or tasks).
+- **Additional Features**:
+  - Added an undo option after an item is deleted.
+  - Included smooth animations for the swipe and deletion actions.
 
-### 8. Dark Mode Toggle
-- **Description**: Introduced dark mode support to enhance the app's usability in low-light environments. Users can switch between light and dark themes in the app settings.
-- **Key Elements**: Dynamic theming changes based on user preference, offering a visually comfortable experience.
+### 8. Pull-to-Refresh
+- **Description**: Added pull-to-refresh functionality to a list or feed screen.
+- **Additional Features**:
+  - Ensured page content reloads when the user pulls down.
+  - Added a loading animation during the refresh process.
 
-### 9. Floating Action Button (FAB)
-- **Description**: Implemented a Floating Action Button for quick access to key app actions. The FAB hovers above the UI and is designed to be intuitive and easily accessible.
-- **Key Elements**: The button triggers core functionalities, enhancing app usability.
+### 9. Dark Mode Toggle
+- **Description**: Implemented a toggle switch for dark mode within the app.
+- **Additional Features**:
+  - Ensured the entire app’s color scheme changes when dark mode is activated.
+  - Saved the user’s preference and applied it when the app is reopened.
 
-## How to Use This Repository:
-1. Clone the repository to your local machine.
-2. Open the project in Android Studio.
-3. Review the implementation of each feature by navigating through the project structure.
-4. Run the app to test each feature, or build upon the existing code for further customization.
+### 10. Floating Action Button (FAB)
+- **Description**: Added a floating action button that stays fixed on the screen.
+- **Additional Features**:
+  - Implemented functionality for the button to open a new screen or action when clicked.
+  - Ensured the FAB is responsive and adjusts its position based on the screen layout.
 
-## Technologies Used:
-- **Android SDK**: For developing and testing the app.
-- **Java**: Primary language for coding app logic.
-- **XML**: Used for designing app layouts.
-- **Firebase**: For push notifications integration.
